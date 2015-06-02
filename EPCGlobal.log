@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.6.8)  1 JUN 2015 22:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.6.8)  2 JUN 2015 17:11
 entering extended mode
 **EPCGlobal.tex
 
@@ -672,7 +672,7 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 23.
 
-<gs1arch.jpg, id=15, 511.9125pt x 418.56375pt>
+<gs1arch.jpg, id=19, 511.9125pt x 418.56375pt>
 File: gs1arch.jpg Graphic file (type jpg)
  <use gs1arch.jpg>
 Package pdftex.def Info: gs1arch.jpg used on input line 31.
@@ -687,13 +687,13 @@ Overfull \hbox (1.91116pt too wide) in paragraph at lines 40--41
 grupo "Cap-tu-rar", e suas defini[][]oes
  []
 
-<epcrfid.jpg, id=26, 528.47438pt x 206.27063pt>
+<epcrfid.jpg, id=30, 528.47438pt x 206.27063pt>
 File: epcrfid.jpg Graphic file (type jpg)
  <use epcrfid.jpg>
 Package pdftex.def Info: epcrfid.jpg used on input line 49.
 (pdftex.def)             Requested size: 256.07481pt x 99.94984pt.
 
-<epcis.jpg, id=27, 496.85625pt x 448.67625pt>
+<epcis.jpg, id=31, 496.85625pt x 448.67625pt>
 File: epcis.jpg Graphic file (type jpg)
  <use epcis.jpg>
 Package pdftex.def Info: epcis.jpg used on input line 59.
@@ -704,7 +704,7 @@ Integracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/epcis.jpg>]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 67.
 
-<epcarc.jpg, id=37, 349.305pt x 388.45125pt>
+<epcarc.jpg, id=41, 349.305pt x 388.45125pt>
 File: epcarc.jpg Graphic file (type jpg)
  <use epcarc.jpg>
 Package pdftex.def Info: epcarc.jpg used on input line 73.
@@ -712,45 +712,103 @@ Package pdftex.def Info: epcarc.jpg used on input line 73.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 80.
  [3 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/epcarc.jpg>] [4]
-("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
-alho\TP_TID_Teorico\EPCGlobal.bbl"
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 5.
+rabalho/TP_TID_Teorico/epcarc.jpg>] <pallet.png, id=52, 358.33875pt x 255.95625
+pt>
+File: pallet.png Graphic file (type png)
+
+<use pallet.png>
+Package pdftex.def Info: pallet.png used on input line 95.
+(pdftex.def)             Requested size: 102.42836pt x 73.16309pt.
+ <sites.jpg, id=55, 794.97pt x 274.02374pt>
+File: sites.jpg Graphic file (type jpg)
+ <use sites.jpg>
+Package pdftex.def Info: sites.jpg used on input line 104.
+(pdftex.def)             Requested size: 307.2929pt x 105.92386pt.
+
+[4 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Tr
+abalho/TP_TID_Teorico/pallet.png> <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/In
+tegracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/sites.jpg>]
+<ausarq.jpg, id=66, 835.62187pt x 400.49625pt>
+File: ausarq.jpg Graphic file (type jpg)
+ <use ausarq.jpg>
+Package pdftex.def Info: ausarq.jpg used on input line 129.
+(pdftex.def)             Requested size: 358.50317pt x 171.82503pt.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 136.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
+
+Overfull \hbox (14.50267pt too wide) in paragraph at lines 137--138
+[]\OT1/phv/m/n/12 Qualidade: me-dida atrav[]es de pes-quisa com os mem-bros do 
+cons[]orcio, co-le-tando informa[][]oes
+ []
+
+[5 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Tr
+abalho/TP_TID_Teorico/ausarq.jpg>] [6]
+("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
+alho\TP_TID_Teorico\EPCGlobal.bbl"
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 4.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
+ case _ studies / case _ epc _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
+ case _ studies / case _ epc _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[][]$\OT1/pcr/m/n/12 http : / / www . gs1 . org / sites / default / files / doc
+s / architecture / GS1 _ System _$
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
 
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
 alho\TP_TID_Teorico\EPCGlobal.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `EPCGlobal.out' has not changed.
-(rerunfilecheck)             Checksum: 4E4DA257566B1BD323E1081E9BD2250D;170.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+
+
+Package rerunfilecheck Warning: File `EPCGlobal.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `EPCGlobal.out':
+(rerunfilecheck)             Before: 3579797A8CC4B6A5D5640E09CDE42183;257
+(rerunfilecheck)             After:  E5DD5A98ADA30F34C046C2AFBFA39877;319.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
- 9492 strings out of 493921
- 138669 string characters out of 3147262
- 236315 words of memory out of 3000000
- 12652 multiletter control sequences out of 15000+200000
- 18567 words of font info for 40 fonts, out of 3000000 for 9000
+ 9570 strings out of 493921
+ 139670 string characters out of 3147262
+ 237315 words of memory out of 3000000
+ 12703 multiletter control sequences out of 15000+200000
+ 19082 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,7n,41p,866b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,41p,866b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helveti
-c/uhvro8a.pfb>
-Output written on EPCGlobal.pdf (5 pages, 302044 bytes).
+ 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
+/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on EPCGlobal.pdf (7 pages, 724652 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

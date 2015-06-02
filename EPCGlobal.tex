@@ -51,7 +51,7 @@
 			\label{fig:epcrfid}
 		\end{figure}
 	
-	Cada produto contém um chip de memória contendo um EPC, o qual consiste de um número de série único. Em cada chip também há uma antena de rádio que transmite o EPC para um leitor RFID quando requisitado. Os dados capturados pelo leitor são então disponibilizados para os outros sistemas. A
+	Cada produto contém um chip de memória contendo um EPC, o qual consiste de um número de série único. Em cada chip também há uma antena de rádio que transmite o EPC para um leitor RFID quando requisitado. Os dados capturados pelo leitor são então disponibilizados para os outros sistemas.
 	
 	
 	\begin{figure}[h!]
@@ -75,13 +75,84 @@
 		\label{fig:epcarc}
 	\end{figure}
 	
-	A primeira camada contém os elementos necessários que permitem a identificação única de cada elemento da cadeia produtiva. Ela é composta pelo EPC, Tags e leitores RFID. 
+	A primeira camada contém os elementos necessários que permitem a identificação única de cada elemento da cadeia produtiva. Ela é composta pelo EPC, Tags e leitores RFID. Nela estão definidos os aspectos de mais baixo nível, como a frequência de operação dos leitores e Tags RFID. Além disso, deve-se especificar a codificação utilizada pelos códigos EPC, pois existem várias codificações, as quais variam de acordo com a aplicação.
 	
-	Entre os leitores RFID e as aplicações de captuda de dados está a interface ALE (Application Level Events). A ALE é uma camada de \textit{Middleware}, responsável por oferecer uma interface de alto-nível às aplicações capaz de agragar dados de diversos leitores, filtrá-los para remover redundâncias, como leituras múltiplas e não-desejadas e disponibilizá-los de maneira que as aplicações possam trabalhar mais facilmente com esses dados. Resumindo, a ALE é uma interface de pré-processamento de dados, que elimina a necessidade das aplicações de captura de dados lidarem com os aspectos de baixo nível da leitura de dados.
+	Entre os leitores RFID e as aplicações de captura de dados está a interface ALE (Application Level Events). A ALE é uma camada de \textit{Middleware}, responsável por oferecer uma interface de alto-nível às aplicações capaz de agragar dados de diversos leitores, filtrá-los para remover redundâncias, como leituras múltiplas e não-desejadas e disponibilizá-los de maneira que as aplicações possam trabalhar mais facilmente com esses dados. Resumindo, a ALE é uma interface de pré-processamento de dados, que elimina a necessidade das aplicações de captura de dados lidarem com os aspectos de baixo nível da leitura de dados.
 	
 	Acima da ALE, temos o EPCIS. Esta é uma interface entre a captura de dados e as aplicações de nível empresarial. A troca de dados provenientes da ALE é feita através de mensagens XML padronizadas, tornando possível o uso do protocolo \textit{SOAP}. O compartilhamento destes dados para o público consumidor e/ou parceiros de negócios é definido pelas empresas, as quais decidem o grau com que elas irão disponiblizar essa informações. Este serviço é garantida pela \textit{Query Interface}, a qual integra os sistemas através de \textit{web services}, utilizando para isto os conceitos do \textit{SOA}. 
 	
 	Nas camadas mais superiores temos o Object Name Services (ONS), o qual é responsável por descobrir informações sobre um objeto com base no EPC. Para um dado EPC, a URL ou IP associado é pesquisado no banco de dados e os dados referentes àquele objeto podem ser econtrados e devolvidos à quem o requisitou. Ele funciona de maneira análoga a um servidor DNS, o qual traduz domínios em endereços IP.
+	
+	\subsection{Exemplo de aplicação prática}
+	O padrão EPCGlobal vem continuamente sendo adotado por diversas empresas na tentativa de aprimorar o processo de visibilidade da cadeia produtiva através do uso de RFID. Como citado anteriormente, grandes empresas estão aderidndo a este padrão e portanto conseguindo uma integração ainda melhor entre os diversos sistemas de informação. Isso pode ser comprovado através dos seguintes casos de estudo, que mostram o ganho que elas tiveram com o advento desta padronização. 
+	
+	Uma aplicação muito interessante foi desenvolvida na Austrália, chamada \textit{The National Demonstrator Project}. Para isso, foi criado um consórcio de empresas chamado \textbf{CSIRO}, o qual era composto por empresas de renome mundial, como a Gillette, Sun Microsystems, VerySign e a P\&G, além de outras empresas locais de médio e pequeno porte. Seus objetivos principais foram demonstrar o princípio da rede EPC através de sua implementação em toda uma cadeia produtiva, evidenciando os benefícios que esta integração gera para todos os participantes do sistema. 
+	
+	O processo consistia em monitorar a movimentação de peletes (figura \ref{fig:palete}) entre fornecedores e consumidores, ou de retorno dos paletes de consumidores a fornecedores. Para isto, foram instalados leitores EPC/RFID em todos os galpões, de forma a localizar todos os paletes durante o processo.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.2\linewidth]{pallet}
+		\caption{Paletes}
+		\label{fig:palete}
+	\end{figure}
+
+	Ao todo, foram usados 6 galpões, listados na figura \ref{fig:sites}, entre os quais os paletes eram trocados.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.6\linewidth]{sites}
+		\caption{Galpões utlizados}
+		\label{fig:sites}
+	\end{figure}
+		
+	 
+	O processo era composto de 9 etapas:
+	\begin{enumerate}
+		\item O processo inicia quando um cliente gera uma ordem no ERP da CHEP;  
+		\item CHEP ou cliente pegam os paletes;
+		\item As Tags das paletas passam pelos leitores RFID e sua localização é gravada no sistema;
+		\item As paletas são despachadas para os clientes;
+		\item Paletas são recebidas no local desejado
+		\item Novamente, as Tags das paletas passam pelos leitores RFID e têm sua localização salva no sistema;
+		\item As Tags são contadas e comparadas com a ordem gerada, salvando os dados no sistema;
+		\item Se a quantidade fosse correta, a ordem era aceita. Caso houvesse algum erro, o fornecedor era imediatamente notificado.
+	\end{enumerate}	
+	
+	Isso foi reazliado de maneira completamente automatizada, sem a necessidade de papel e livre de erro humano, melhorando de forma significativa a qualidade do processo. A qualquer momento, é possível acessar o sistema e saber em detalhes a trajetória de cada palete desde o forncedor até o cliente. Mais detalhes da implementação podem ser vistas em \cite{case_epc_demo_ext}.
+	
+	
+	A figura \ref{fig:ausarq} apresenta a arquitetura utilizada para a implementação do projeto. Observe que todas as interfaces definidas anteriormente estão presentes, conforme requerido pela norma. Além disso, os detalhes de implementação não são especificados, o que permitiu ao consórcio, em parceria com a GS1 Austrália uma maior flexibilidade nas decisões relacionadas a esta tarefa.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\linewidth]{ausarq}
+		\caption{Aquitetura do projeto}
+		\label{fig:ausarq}
+	\end{figure}
+	
+	Para avaliar a performance do sistema, foram usados os seguintes critérios:
+	\begin{itemize}
+		\item Precisão das resultados da leitura de EPC/RFID;
+		\item Qualidade: medida através de pesquisa com os membros do consórcio, coletando informações sobre tempo gasto para corrigir erros e para garantir precisão do processo;
+		\item Produtividade: comparação entre o processo tradicional e a nova abordagem apresentada neste projeto;
+		\item Eficiência: medida pela redução do esforço de trabalho gasto nos processos que anteriormente eram manuais.
+	\end{itemize}
+	
+	Através da medida destes critérios, obteve-se os seguintes resultados:
+	\begin{itemize}
+		\item Taxas de 100\% de precisão não foram inicialmente obtidas. Fatores como a qualidade e posição das Tags e leitores RFID influenciaram nesse resultado. Após ajustes finos, melhorou-se esta taxa, atingindo valores próximos de 100\%;
+		\item Através da pesquisa constatou-se que o tempo gasto encontrando e solucionando erros foi reduzido. Além disso, notou-se um aumento na eficiência no serviço ao consumidor, eliminaçao de operações não produtivas e melhoras no planejamento de manutenção preventiva.
+		\item Redução do tempo de processamento entre 5 a 10 minutos, com ganhos de eficiência na faixa de 14.3\% a 22.2\% 
+		\item Simplifição significativa, eliminando várias etapas manuais do processo.
+		
+	Dessa forma, podemos concluir que a adoção da rede EPCGlobal na automatização deste processo atingiu os objetivos estabelecidos, demonstrando que aplicações usando esta norma têm muito a acrescentar às empresas que desejam adotar esta modalidade de integração de dados.
+		
+	\end{itemize} 
+	
+	
+	\section{Considerações Finais}
+	Neste capítulo foi dada uma breve descrição sobre a norma EPCGlobal, mantida e criada pelo consórcio GS1, com enfoque nos aspectos que mais se relacioanavam com o conteúdo da disciplina, pois a norma é bem extensa. Aspectos além do escopo deste trabalho ou que não foram explicados de maneira completa podem ser estudados e melhor entendidos, e podem ser melhor vistos em \cite{gs1} e \cite{gs1arc}. Através do estudo de caso apresentado, podemos conlcuir que esta norma, se aplicada corretamente, funciona na prática e pode entregar bons resultados. Sua utilização pela indústria só tem a agregar valor às aplicações voltadas para o gerenciamento de cadeias de suprimento.
 	
 \newpage
 
