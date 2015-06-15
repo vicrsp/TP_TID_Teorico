@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: EPCGlobal.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Introducao.aux
 The style file: plain.bst
 Database file #1: biblio_doc.bib
 Warning--entry type for "case_epc_demo_ext" isn't style-file defined
@@ -11,8 +11,8 @@ Warning--entry type for "gs1arc" isn't style-file defined
 --line 36 of file biblio_doc.bib
 Warning--to sort, need author or key in case_epc_demo_ext
 Warning--to sort, need author or key in gs1
-Warning--to sort, need author or key in gs1arc
 Warning--to sort, need author or key in case_epc_demo
+Warning--to sort, need author or key in gs1arc
 Warning--can't use both author and editor fields in rfidbook
 Warning--empty publisher in rfidbook
 Warning--empty year in rfidbook
