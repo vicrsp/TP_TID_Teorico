@@ -1,0 +1,54 @@
+\documentclass[a4paper,12pt,titlepage]{scrartcl}
+\usepackage{palatino}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[margin=1.5cm,includefoot]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{xcolor}
+
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+\usepackage[portuguese]{babel}
+
+
+
+\begin{document}
+
+\title{RFID - Radio Frequency Identification}
+\subtitle{Aplicações em Integração de Dados}
+\author{Victor São Paulo Ruela \\ Igor da Luz Pinheiro \\ Universidade Federal de Minas Gerais}
+\date{\today}
+
+\maketitle
+
+\tableofcontents
+\newpage 
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+
+\section{Resumo}
+\section{Introdução}
+\input{Introducao}
+\section{A Norma EPCGlobal}
+\input{EPCGlobal}
+\section{Conclusão}
+
+
+\newpage
+\bibliographystyle{plain}
+\nocite{*}
+\bibliography{biblio_doc}
+
+
+
+\end{document}
