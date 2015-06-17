@@ -1,26 +1,8 @@
-\documentclass[a4paper,12pt,titlepage]{article}
-\usepackage{palatino}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{amsmath}
-\usepackage{caption}
-\usepackage{subcaption}
-\usepackage[margin=1.5cm,includefoot]{geometry}
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\usepackage{url}
-\usepackage{listings}
-\usepackage{xcolor}
 
 
-\renewcommand*{\familydefault}{\sfdefault}
+%\begin{document}
 
-\usepackage[portuguese]{babel}
-
-
-\begin{document}
-
-\section{Introdução}	
+\subsection{Introdução}	
 	O uso da tecnologia RFID está em crescente expansão, principalmente em aplicações de Supply Chain Management (SCM), no qual saber a localização de cada item da cadeia produtiva é crucial para garantir maior eficácia e eficiência de todo um sistema. Devido essa crescente adoção do RFID, fica constatado que o surgimento de um conjunto de normas que visem à padronização das tecnlogias usadas seria algo natural de se acontecer. Imagine a situação em que uma grande empresa do setor de varejo se funda com outra do mesmo setor, sendo que ambas usam RFID para a localização dos produtos. Se, por exemplo, o formato das TAGs utlizadas pelas empresas forem diferentes, já teremos uma enorme dificuldade de integrar as informações oriundas de cada sistema. Para contornar esse tipo de problema, existe o \textbf{GS1}.
 	
 	O GS1 é uma organização internacional neutra e sem fins lucrativos, que desenvolve e mantém padrões para cadeias de demanda e suprimentos de diversos setores produtivos. Ele atua principalmente nas áreas de bens do consumo e varejo, saúde e transporte e logística. Algumas empresas que trabalham com o GS1 são: Carrefour, amazon, Google e Coca Cola. 	
@@ -41,7 +23,7 @@
 	A norma voltada paraaplicações com RFID se enquadra no grupo "Capturar", e suas definições estão presentes no \textbf{EPCGlobal}.
 
 
-\section{O padrão EPCGlobal}
+\subsection{O padrão EPCGlobal}
 	O padrão EPCglobal é uma iniciatia do GS1 para desevolver padrões voltados à indústria para o EPC, com o objetivo de dar suporte ao uso de RFID. Ele é divido em duas partes: \textbf{EPC/RFID Tags} e \textbf{EPCIS}. 
 	
 	O EPC (Electronic Product Code) é responsável por interligar o mundo do RFID com os códigos de barra do padrão GS1. Isso funciona da seguinte forma:
@@ -65,7 +47,7 @@
 	% Falar sobre o EPCIS
 	O EPCIS (Electronic Product Code Information Services) é o padrão que habilita as empresas parceiras a compartilhar informações sobre o movimento físico e status dos produtos enquanto eles trafegam pela linha de suprimentos. Uma vez que os dados EPC são coletados, como na figura \ref{fig:epcrfid}, eles são disponibilizados à camada de negócios e todos que possuem acesso a este podem saber o histórico de movimento dos produtos. 
 	
-	\subsection{Arquitetura}
+	\subsubsection{Arquitetura}
 
 	O EPCGlobal define somente as interfaces, deixando as questões relativas à implementação sobre responsabilidade do usuário. Isso garante uma maior flexiblidade e alimenta o mercado de soluções em sistemas de informação para alcançar essa integração dos dados da cadeia produtiva. A figura \ref{fig:epcarc} apresenta um diagrama contendo a arquitetura básica de um sistema operando com a norma EPCGlobal.
 
@@ -84,7 +66,7 @@
 	
 	Nas camadas mais superiores temos o Object Name Services (ONS), o qual é responsável por descobrir informações sobre um objeto com base no EPC. Para um dado EPC, a URL ou IP associado é pesquisado no banco de dados e os dados referentes àquele objeto podem ser econtrados e devolvidos à quem o requisitou. Ele funciona de maneira análoga a um servidor DNS, o qual traduz domínios em endereços IP.
 	
-	\subsection{Exemplo de aplicação prática}
+	\subsubsection{Exemplo de aplicação prática}
 	O padrão EPCGlobal vem continuamente sendo adotado por diversas empresas na tentativa de aprimorar o processo de visibilidade da cadeia produtiva através do uso de RFID. Como citado anteriormente, grandes empresas estão aderidndo a este padrão e portanto conseguindo uma integração ainda melhor entre os diversos sistemas de informação. Isso pode ser comprovado através dos seguintes casos de estudo, que mostram o ganho que elas tiveram com o advento desta padronização. 
 	
 	Uma aplicação muito interessante foi desenvolvida na Austrália, chamada \textit{The National Demonstrator Project}. Para isso, foi criado um consórcio de empresas chamado \textbf{CSIRO}, o qual era composto por empresas de renome mundial, como a Gillette, Sun Microsystems, VerySign e a P\&G, além de outras empresas locais de médio e pequeno porte. Seus objetivos principais foram demonstrar o princípio da rede EPC através de sua implementação em toda uma cadeia produtiva, evidenciando os benefícios que esta integração gera para todos os participantes do sistema. 
@@ -152,14 +134,14 @@
 	\end{itemize} 
 	
 	
-	\section{Considerações Finais}
+	\subsection{Considerações Finais}
 	Neste capítulo foi dada uma breve descrição sobre a norma EPCGlobal, mantida e criada pelo consórcio GS1, com enfoque nos aspectos que mais se relacioanavam com o conteúdo da disciplina, pois a norma é bem extensa. Aspectos além do escopo deste trabalho ou que não foram explicados de maneira completa podem ser estudados e melhor entendidos, e podem ser melhor vistos em \cite{gs1} e \cite{gs1arc}. Através do estudo de caso apresentado, podemos conlcuir que esta norma, se aplicada corretamente, funciona na prática e pode entregar bons resultados. Sua utilização pela indústria só tem a agregar valor às aplicações voltadas para o gerenciamento de cadeias de suprimento.
 	
-\newpage
+%\newpage
 
-\bibliographystyle{plain}
-\nocite{*}
-\bibliography{biblio_doc}
+%\bibliographystyle{plain}
+%\nocite{*}
+%\bibliography{biblio_doc}
 
 		
-\end{document}
+%\end{document}

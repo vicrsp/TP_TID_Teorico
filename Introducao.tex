@@ -1,23 +1,6 @@
-\documentclass[a4paper,12pt,titlepage]{article}
-\usepackage{palatino}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{amsmath}
-\usepackage{caption}
-\usepackage{subcaption}
-\usepackage[margin=1.5cm,includefoot]{geometry}
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\usepackage{url}
-\usepackage{listings}
-\usepackage{xcolor}
 
 
-\renewcommand*{\familydefault}{\sfdefault}
-
-\usepackage[portuguese]{babel}
-
-\begin{document}
+%\begin{document}
 
 	
 	RFID, \textit{Radio Frequency Identification}, é uma tecnologia que está em crescente uso e evolução, devido às suas possíveis aplicações e os benefícios que sua utilização propiciam. Seu principal uso é no monitoramento de ativos, permitindo conhecer toda a trajetória de um produto, desde o início da cadeia produtiva até o consumidor final. 
@@ -42,7 +25,7 @@
 		\item Reusabilidade de tags.
 	\end{itemize}
 	
-	\section{Evolução na adoção do RFID}
+	\subsection{Evolução na adoção do RFID}
 	De acordo com \cite{rfidbook}, podemos dividir o progresso de adoção do RFID em 5 períodos: \textit{Proprietary era}, \textit{Compliance era}, \textit{RFID-enable Enterprise era}, \textit{RFID-enable Industies era} e \textit{Internet of Things era}(Figura \ref{fig:rfideras}).
 	
 	\begin{figure}[h!]
@@ -65,7 +48,7 @@
 	A forma e velocidade com que os diversos tipos de usuários passarão por essas épocas não será feita de maneira uniforme. Atualmente, existem usuários que ainda estão na \textit{Proprietary era}, enquanto outros já estão começando a aplicar os conceitos da \textit{RFID-enabled Industries e Internet of Things}. Em algumas áreas, o RFID ainda nem começou a ser implementado.
 	
 	
-	\section{Sistemas RFID}
+	\subsection{Sistemas RFID}
 	
 	Em um sistema RFID, destacam-se os seguintes componentes: Tags, Leitores e Middleware. Todos podem ser vistos na figura \ref{fig:rfidcomp} e serão explicados com mais detalhes em seguida.
 	
@@ -76,7 +59,7 @@
 		\label{fig:rfidcomp}
 	\end{figure}
 	
-	\subsection{Tags}
+	\subsubsection{Tags}
 	São elementos fisicamente acoplados a um objeto, possuindo uma memória para armazenamento de dados. Toda tag RFID possui algum tipo de bobina ou antena, de forma a permitir sua leitura, e precisa ter as seguintes funcionalidades:
 	
 		\begin{itemize}
@@ -138,7 +121,7 @@
 		
 	Algumas tags apresentam um comportamento mais complexo, possuindo máquinas de estado incorporadas em chips customizados, permitindo que elas exerçam um papel mais ativo no sistema. Por causa disso, são geralmente mais caras. 
 	
-	\subsection{Leitores}
+	\subsubsection{Leitores}
 	Os leitores RFID são os componentes responsáveis pela leitura das tags, geração de evnetos e finalmente envio dos dados à camada de \textit{Middleware}. Os elementos físicos básicos de um leitor são: antena, controlador e interface de rede.
 	
 	A \textbf{antena} é o elemento principal da comunicação, cujo papel é enviar e receber as informações na forma de ondas de radio-frequência. Dependendo da aplicação, um leitor pode ter mais de uma antena. O \textbf{controlador} tem como função executar os protocolos de comunicação e controlar o transmissor. Pode ser implementado em um chip ou até em sistemas maiores e mais robustos, como microcomputadores. A \textbf{interface de rede} é essencial para a comunicação com a camada de middleware e também com outros dispositivos. As formas mais comuns de se fazer isto pe usando as interfaces RS 232, Ethernet, Bluetooth e ZigBee.
@@ -161,7 +144,7 @@
 	\paragraph{Antena} Consiste na interface e lógica que permite aos leitores interrogar as tags sobre seu estado atual e controlar as antenas físicas. Implementa os protocolos de trocas de dados usando rádio-frequência bem como a eletrônica da interface com o ar.
 
 	
-	\subsection{Middleware RFID}
+	\subsubsection{Middleware RFID}
 	
 	O middleware RFID é um software que intermedia a comunicação entre o sistema de informação da organização (MES, ERP) e a infraestrutura de hardware do sistema RFID (tags,leitores acoplados à rede). Sua função é coletar, filtrar e agregar os dados provenientes dos leitores \cite{renatarfid}. \\
 	Portanto, podemos inferir uma estrutura básica para o middleware composta de 3 componentes lógicos, como pode ser visto na figura \ref{fig:middleware}.
@@ -186,15 +169,15 @@
 			\label{fig:midarc}
 		\end{figure}
 	
-	\section{Privacidade e Segurança}
+	\subsection{Privacidade e Segurança}
 	
-	\section{O Futuro do RFID}
+	\subsection{O Futuro do RFID}
 	
-	\newpage
-	 \bibliographystyle{plain}
-	 \nocite{*}
-	 \bibliography{biblio_doc}
+%	\newpage
+%	 \bibliographystyle{plain}
+%	 \nocite{*}
+%	 \bibliography{biblio_doc}
 	 
 
 
-\end{document} 
+%\end{document} 
