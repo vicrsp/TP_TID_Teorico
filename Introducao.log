@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.10)  15 JUN 2015 15:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.10)  17 JUN 2015 17:25
 entering extended mode
 **Introducao.tex
 
@@ -675,25 +675,30 @@ alho\TP_TID_Teorico\Introducao.out")
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 23.
 
-<rfidsys2.jpg, id=7, 740.7675pt x 246.9225pt>
+Overfull \hbox (2.63535pt too wide) in paragraph at lines 25--26
+\OT1/phv/m/n/12 quanto a do ta-ma-nho dos com-po-nen-tes. An-tes, as tags eram 
+do ta-ma-nho de um forno-microondas
+ []
+
+<rfidsys2.jpg, id=31, 740.7675pt x 246.9225pt>
 File: rfidsys2.jpg Graphic file (type jpg)
  <use rfidsys2.jpg>
-Package pdftex.def Info: rfidsys2.jpg used on input line 29.
+Package pdftex.def Info: rfidsys2.jpg used on input line 31.
 (pdftex.def)             Requested size: 307.2929pt x 102.42947pt.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 38.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 45.
 
-<rfideras.jpg, id=12, 448.67625pt x 436.63126pt>
+<rfideras.jpg, id=36, 448.67625pt x 436.63126pt>
 File: rfideras.jpg Graphic file (type jpg)
  <use rfideras.jpg>
-Package pdftex.def Info: rfideras.jpg used on input line 48.
+Package pdftex.def Info: rfideras.jpg used on input line 50.
 (pdftex.def)             Requested size: 307.2929pt x 299.05063pt.
 
 
@@ -703,8 +708,70 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 {C:/Users/Victor Ruela/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/U
 sers/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Trabalho/T
-P_TID_Teorico/rfidsys2.jpg>] [2 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Inte
-gracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/rfideras.jpg>]
+P_TID_Teorico/rfidsys2.jpg>]
+<rfidsys3.jpg, id=52, 417.05812pt x 430.60875pt>
+File: rfidsys3.jpg Graphic file (type jpg)
+ <use rfidsys3.jpg>
+Package pdftex.def Info: rfidsys3.jpg used on input line 74.
+(pdftex.def)             Requested size: 256.07481pt x 264.40556pt.
+ [2 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
+rabalho/TP_TID_Teorico/rfideras.jpg>]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 79.
+ <rfidtagas.jpg, id=60, 764.8575pt x 578.16pt>
+File: rfidtagas.jpg Graphic file (type jpg)
+
+<use rfidtagas.jpg>
+Package pdftex.def Info: rfidtagas.jpg used on input line 93.
+(pdftex.def)             Requested size: 256.07481pt x 193.56349pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 100.
+[3 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Tr
+abalho/TP_TID_Teorico/rfidsys3.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+[4 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Tr
+abalho/TP_TID_Teorico/rfidtagas.jpg>]
+<sawrfid_chip.jpg, id=80, 346.29375pt x 111.41624pt>
+File: sawrfid_chip.jpg Graphic file (type jpg)
+ <use sawrfid_chip.jpg>
+Package pdftex.def Info: sawrfid_chip.jpg used on input line 134.
+(pdftex.def)             Requested size: 256.07481pt x 82.39063pt.
+
+Overfull \hbox (0.5801pt too wide) in paragraph at lines 144--145
+[]\OT1/phv/m/n/12 A \OT1/phv/b/n/12 an-tena []\OT1/phv/m/n/12 e o ele-mento pri
+n-ci-pal da comunica[][]ao, cujo pa-pel []e en-viar e re-ce-ber as informa[][]o
+es
+ []
+
+<reader.jpg, id=82, 184.69pt x 155.58125pt>
+File: reader.jpg Graphic file (type jpg)
+ <use reader.jpg>
+Package pdftex.def Info: reader.jpg used on input line 150.
+(pdftex.def)             Requested size: 128.0374pt x 107.85683pt.
+ [5 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
+rabalho/TP_TID_Teorico/sawrfid_chip.jpg> <C:/Users/Victor Ruela/Desktop/UFMG/20
+15-1/Integracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/reader.jpg>]
+<middleware.jpg, id=95, 184.69pt x 175.65625pt>
+File: middleware.jpg Graphic file (type jpg)
+ <use middleware.jpg>
+Package pdftex.def Info: middleware.jpg used on input line 171.
+(pdftex.def)             Requested size: 128.0374pt x 121.77383pt.
+
+<midarc.jpg, id=99, 362.85562pt x 361.35pt>
+File: midarc.jpg Graphic file (type jpg)
+ <use midarc.jpg>
+Package pdftex.def Info: midarc.jpg used on input line 184.
+(pdftex.def)             Requested size: 256.07481pt x 255.01645pt.
+ [6 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
+rabalho/TP_TID_Teorico/middleware.jpg>] [7 <C:/Users/Victor Ruela/Desktop/UFMG/
+2015-1/Integracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/midarc.jpg>]
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
 alho\TP_TID_Teorico\Introducao.bbl"
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 4.
@@ -712,52 +779,66 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 4.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
- case _ studies / case _ epc _$
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
- case _ studies / case _ epc _$
+[][]$\OT1/pcr/m/n/12 http : / / www . coresonant . com / images / rfid-[]tags-[
+]for-[]solar-[]module-[]india .$
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
+ case _ studies / case _ epc _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
+ case _ studies / case _ epc _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 [][]$\OT1/pcr/m/n/12 http : / / www . gs1 . org / sites / default / files / doc
 s / architecture / GS1 _ System _$
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
 
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
 alho\TP_TID_Teorico\Introducao.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
-Package rerunfilecheck Info: File `Introducao.out' has not changed.
-(rerunfilecheck)             Checksum: 93C79B9E076833FE7B15A1C015CB8472;74.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+
+
+Package rerunfilecheck Warning: File `Introducao.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Introducao.out':
+(rerunfilecheck)             Before: 56BC4A65BFFA4CCD959FB321B19D561E;413
+(rerunfilecheck)             After:  6485BDC329CCF74B5A0CCBBED432F60A;414.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 9502 strings out of 493921
- 139370 string characters out of 3147261
+ 9593 strings out of 493921
+ 140588 string characters out of 3147261
  239304 words of memory out of 3000000
- 12665 multiletter control sequences out of 15000+200000
- 15210 words of font info for 37 fonts, out of 3000000 for 9000
+ 12713 multiletter control sequences out of 15000+200000
+ 19082 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,8n,40p,999b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,14n,40p,683b,370s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
-/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Introducao.pdf (3 pages, 148406 bytes).
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/he
+lvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Introducao.pdf (8 pages, 395074 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 19 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

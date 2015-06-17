@@ -9,13 +9,22 @@ Warning--entry type for "case_epc_demo" isn't style-file defined
 --line 28 of file biblio_doc.bib
 Warning--entry type for "gs1arc" isn't style-file defined
 --line 36 of file biblio_doc.bib
+Warning--entry type for "tags" isn't style-file defined
+--line 51 of file biblio_doc.bib
+Warning--entry type for "renatarfid" isn't style-file defined
+--line 68 of file biblio_doc.bib
+Warning--to sort, need author or key in renatarfid
 Warning--to sort, need author or key in case_epc_demo_ext
 Warning--to sort, need author or key in gs1
 Warning--to sort, need author or key in case_epc_demo
 Warning--to sort, need author or key in gs1arc
+Warning--to sort, need author or key in tags
+Warning--can't use both author and editor fields in rfidbook2
+Warning--empty publisher in rfidbook2
+Warning--empty year in rfidbook2
 Warning--can't use both author and editor fields in rfidbook
 Warning--empty publisher in rfidbook
 Warning--empty year in rfidbook
 Warning--empty journal in epcSobCug
 Warning--empty year in epcSobCug
-(There were 13 warnings)
+(There were 20 warnings)

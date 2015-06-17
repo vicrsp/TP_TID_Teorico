@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{renatarfid}
+\url{http://brasil.rfidjournal.com/artigos/vision?9940}.
+
+\bibitem{tags}
+\url{http://www.coresonant.com/images/rfid-tags-for-solar-module-india.JPG}.
+
 \bibitem{case_epc_demo_ext}
 \url{http://www.gs1au.org/assets/documents/info/case_studies/case_epc_demo_ext.pdf}.
 
@@ -11,6 +17,12 @@
 
 \bibitem{gs1}
 \url{www.gs1.org}.
+
+\bibitem{rfidbook2}
+Klaus Finkenzeller.
+\newblock {\em RFID Handbook: Fundamentals and Applications in Contactless
+  Smart Cards and Identification}.
+\newblock Third edition.
 
 \bibitem{rfidbook}
 Bill Glover and Himanshu Bhatt.
