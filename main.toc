@@ -20,15 +20,14 @@
 \contentsline {paragraph}{\nonumberline API}{11}{section*.23}
 \contentsline {paragraph}{\nonumberline Gerenciador de eventos}{11}{section*.24}
 \contentsline {paragraph}{\nonumberline Adaptador}{11}{section*.25}
-\contentsline {subsection}{\numberline {2.3}Privacidade e Seguran\IeC {\c c}a}{12}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}O Futuro do RFID}{12}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.3}Aplica\IeC {\c c}\IeC {\~o}es}{11}{subsection.2.3}
 \contentsline {section}{\numberline {3}A Norma EPCGlobal}{12}{section.3}
 \contentsline {subsection}{\numberline {3.1}Introdu\IeC {\c c}\IeC {\~a}o}{12}{subsection.3.1}
-\contentsline {paragraph}{\nonumberline Identificar}{13}{section*.28}
-\contentsline {paragraph}{\nonumberline Capturar}{13}{section*.29}
-\contentsline {paragraph}{\nonumberline Compartilhar}{13}{section*.30}
+\contentsline {paragraph}{\nonumberline Identificar}{12}{section*.28}
+\contentsline {paragraph}{\nonumberline Capturar}{12}{section*.29}
+\contentsline {paragraph}{\nonumberline Compartilhar}{12}{section*.30}
 \contentsline {subsection}{\numberline {3.2}O padr\IeC {\~a}o EPCGlobal}{13}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Arquitetura}{13}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1}Arquitetura}{14}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Exemplo de aplica\IeC {\c c}\IeC {\~a}o pr\IeC {\'a}tica}{15}{subsubsection.3.2.2}
 \contentsline {subsection}{\numberline {3.3}Considera\IeC {\c c}\IeC {\~o}es Finais}{17}{subsection.3.3}
 \contentsline {section}{\numberline {4}Conclus\IeC {\~a}o}{17}{section.4}
