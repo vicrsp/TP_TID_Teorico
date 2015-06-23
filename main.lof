@@ -1,16 +1,16 @@
 \select@language {portuguese}
-\contentsline {figure}{\numberline {1}{\ignorespaces Sistema RFID t\IeC {\'\i }pico, retirado de \cite {rfidbook}\relax }}{5}{figure.caption.4}
-\contentsline {figure}{\numberline {2}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do RFID, retirado de \cite {rfidbook}\relax }}{6}{figure.caption.5}
-\contentsline {figure}{\numberline {3}{\ignorespaces Componentes de um sistema RFID, retirado de \cite {rfidbook}\relax }}{7}{figure.caption.6}
-\contentsline {figure}{\numberline {4}{\ignorespaces Alguns modelos de tags dispon\IeC {\'\i }veis\relax }}{8}{figure.caption.7}
-\contentsline {figure}{\numberline {5}{\ignorespaces Funcionamento das tags SAW\relax }}{9}{figure.caption.16}
-\contentsline {figure}{\numberline {6}{\ignorespaces Componentes l\IeC {\'o}gicos de um leitor RFID. Adaptado de \cite {rfidbook}\relax }}{10}{figure.caption.17}
-\contentsline {figure}{\numberline {7}{\ignorespaces Componentes l\IeC {\'o}gicos do middleware. Adaptado de \cite {rfidbook}\relax }}{10}{figure.caption.22}
-\contentsline {figure}{\numberline {8}{\ignorespaces Arquitetura conceitual de um Middleware RFID. Retirado de \cite {rfidbook}\relax }}{11}{figure.caption.26}
-\contentsline {figure}{\numberline {9}{\ignorespaces Arquitetura do GS1\relax }}{13}{figure.caption.27}
-\contentsline {figure}{\numberline {10}{\ignorespaces Funcionamento do EPC\relax }}{13}{figure.caption.31}
-\contentsline {figure}{\numberline {11}{\ignorespaces Funcionamento do EPCIS\relax }}{14}{figure.caption.32}
-\contentsline {figure}{\numberline {12}{\ignorespaces Arquitetura do EPCGlobal. Retirada de \cite {epcSobCug} \relax }}{14}{figure.caption.33}
-\contentsline {figure}{\numberline {13}{\ignorespaces Paletes\relax }}{16}{figure.caption.34}
-\contentsline {figure}{\numberline {14}{\ignorespaces Galp\IeC {\~o}es utlizados\relax }}{16}{figure.caption.35}
-\contentsline {figure}{\numberline {15}{\ignorespaces Aquitetura do projeto\relax }}{17}{figure.caption.36}
+\contentsline {figure}{\numberline {1}{\ignorespaces Sistema RFID t\IeC {\'\i }pico, retirado de \cite {rfidbook}\relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {2}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do RFID, retirado de \cite {rfidbook}\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Componentes de um sistema RFID, retirado de \cite {rfidbook}\relax }}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {4}{\ignorespaces Alguns modelos de tags dispon\IeC {\'\i }veis\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {5}{\ignorespaces Funcionamento das tags SAW\relax }}{9}{figure.caption.17}
+\contentsline {figure}{\numberline {6}{\ignorespaces Componentes l\IeC {\'o}gicos de um leitor RFID. Adaptado de \cite {rfidbook}\relax }}{10}{figure.caption.18}
+\contentsline {figure}{\numberline {7}{\ignorespaces Componentes l\IeC {\'o}gicos do middleware. Adaptado de \cite {rfidbook}\relax }}{11}{figure.caption.23}
+\contentsline {figure}{\numberline {8}{\ignorespaces Arquitetura conceitual de um Middleware RFID. Retirado de \cite {rfidbook}\relax }}{12}{figure.caption.27}
+\contentsline {figure}{\numberline {9}{\ignorespaces Grupos do padr\IeC {\~a}o GS1\relax }}{13}{figure.caption.28}
+\contentsline {figure}{\numberline {10}{\ignorespaces Funcionamento do EPC\relax }}{14}{figure.caption.32}
+\contentsline {figure}{\numberline {11}{\ignorespaces Funcionamento do EPCIS\relax }}{14}{figure.caption.33}
+\contentsline {figure}{\numberline {12}{\ignorespaces Arquitetura do EPCGlobal. Retirada de \cite {epcSobCug} \relax }}{15}{figure.caption.34}
+\contentsline {figure}{\numberline {13}{\ignorespaces Paletes\relax }}{16}{figure.caption.35}
+\contentsline {figure}{\numberline {14}{\ignorespaces Galp\IeC {\~o}es utlizados\relax }}{16}{figure.caption.36}
+\contentsline {figure}{\numberline {15}{\ignorespaces Aquitetura do projeto\relax }}{17}{figure.caption.37}

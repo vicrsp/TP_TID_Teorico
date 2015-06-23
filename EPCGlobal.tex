@@ -2,17 +2,17 @@
 
 %\begin{document}
 
-\subsection{Introdução}	
+\subsection{A organização GS1}	
 	O uso da tecnologia RFID está em crescente expansão, principalmente em aplicações de Supply Chain Management (SCM), no qual saber a localização de cada item da cadeia produtiva é crucial para garantir maior eficácia e eficiência de todo um sistema. Devido essa crescente adoção do RFID, fica constatado que o surgimento de um conjunto de normas que visem à padronização das tecnlogias usadas seria algo natural de se acontecer. Imagine a situação em que uma grande empresa do setor de varejo se funda com outra do mesmo setor, sendo que ambas usam RFID para a localização dos produtos. Se, por exemplo, o formato das TAGs utlizadas pelas empresas forem diferentes, já teremos uma enorme dificuldade de integrar as informações oriundas de cada sistema. Para contornar esse tipo de problema, existe o \textbf{GS1}.
 	
 	O GS1 é uma organização internacional neutra e sem fins lucrativos, que desenvolve e mantém padrões para cadeias de demanda e suprimentos de diversos setores produtivos. Ele atua principalmente nas áreas de bens do consumo e varejo, saúde e transporte e logística. Algumas empresas que trabalham com o GS1 são: Carrefour, amazon, Google e Coca Cola. 	
 	O GS1 foi fundado na década de 70 pelos líderes da indústria dos EUA, tendo com sua primeira atividade a criação do padrão de código de barras conhecido como \textbf{GS1 barcode}, o qual é largamente utilizado até hoje. Com os avanços da tecnologia e seu crescente uso, em 2004 o GS1 criou o primeiro padrão para o RFID.
 
-	O padão GS1 é divido em três grupos: Identificar, Capturar e Compartilhar. 
+	O padrão GS1 é divido em três grupos: Identificar, Capturar e Compartilhar. 
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.7\linewidth]{gs1arch}
-		\caption{Arquitetura do GS1}
+		\caption{Grupos do padrão GS1}
 		\label{fig:gs1arch}
 	\end{figure}
 
@@ -20,7 +20,7 @@
 	\paragraph{Capturar} Inclui definições de códigos de barra e RFID, além de especificar padrões para interfaces entre os elementos de software e hardware que se conectam às aplicações empresariais.
 	\paragraph{Compartilhar} Define padrões para o formato dos dados trocados entre as aplicações e os clientes.     
 
-	A norma voltada paraaplicações com RFID se enquadra no grupo "Capturar", e suas definições estão presentes no \textbf{EPCGlobal}.
+	A norma voltada para aplicações com RFID se enquadra no grupo "Capturar", e suas definições estão presentes no \textbf{EPCGlobal}.
 
 
 \subsection{O padrão EPCGlobal}
@@ -60,14 +60,14 @@
 	
 	A primeira camada contém os elementos necessários que permitem a identificação única de cada elemento da cadeia produtiva. Ela é composta pelo EPC, Tags e leitores RFID. Nela estão definidos os aspectos de mais baixo nível, como a frequência de operação dos leitores e Tags RFID. Além disso, deve-se especificar a codificação utilizada pelos códigos EPC, pois existem várias codificações, as quais variam de acordo com a aplicação.
 	
-	Entre os leitores RFID e as aplicações de captura de dados está a interface ALE (Application Level Events). A ALE é uma camada de \textit{Middleware}, responsável por oferecer uma interface de alto-nível às aplicações capaz de agragar dados de diversos leitores, filtrá-los para remover redundâncias, como leituras múltiplas e não-desejadas e disponibilizá-los de maneira que as aplicações possam trabalhar mais facilmente com esses dados. Resumindo, a ALE é uma interface de pré-processamento de dados, que elimina a necessidade das aplicações de captura de dados lidarem com os aspectos de baixo nível da leitura de dados.
+	Entre os leitores RFID e as aplicações de captura de dados está a interface ALE (Application Level Events). A ALE é uma camada de \textit{Middleware}, responsável por oferecer uma interface de alto-nível às aplicações capaz de agregar dados de diversos leitores, filtrá-los para remover redundâncias, como leituras múltiplas e não-desejadas, e disponibilizá-los de maneira que as aplicações possam trabalhar mais facilmente com esses dados. Resumindo, a ALE é uma interface de pré-processamento de dados, que elimina a necessidade das aplicações de captura de dados lidarem com os aspectos de baixo nível da leitura de dados.
 	
 	Acima da ALE, temos o EPCIS. Esta é uma interface entre a captura de dados e as aplicações de nível empresarial. A troca de dados provenientes da ALE é feita através de mensagens XML padronizadas, tornando possível o uso do protocolo \textit{SOAP}. O compartilhamento destes dados para o público consumidor e/ou parceiros de negócios é definido pelas empresas, as quais decidem o grau com que elas irão disponiblizar essa informações. Este serviço é garantida pela \textit{Query Interface}, a qual integra os sistemas através de \textit{web services}, utilizando para isto os conceitos do \textit{SOA}. 
 	
 	Nas camadas mais superiores temos o Object Name Services (ONS), o qual é responsável por descobrir informações sobre um objeto com base no EPC. Para um dado EPC, a URL ou IP associado é pesquisado no banco de dados e os dados referentes àquele objeto podem ser econtrados e devolvidos à quem o requisitou. Ele funciona de maneira análoga a um servidor DNS, o qual traduz domínios em endereços IP.
 	
 	\subsubsection{Exemplo de aplicação prática}
-	O padrão EPCGlobal vem continuamente sendo adotado por diversas empresas na tentativa de aprimorar o processo de visibilidade da cadeia produtiva através do uso de RFID. Como citado anteriormente, grandes empresas estão aderidndo a este padrão e portanto conseguindo uma integração ainda melhor entre os diversos sistemas de informação. Isso pode ser comprovado através dos seguintes casos de estudo, que mostram o ganho que elas tiveram com o advento desta padronização. 
+	O padrão EPCGlobal vem continuamente sendo adotado por diversas empresas na tentativa de aprimorar o processo de visibilidade da cadeia produtiva através do uso de RFID. Como citado anteriormente, grandes empresas estão aderidndo a este padrão e portanto conseguindo uma integração ainda melhor entre os diversos sistemas de informação. Isso pode ser comprovado através do seguinte caso de estudo, que mostra os ganhos obtidos com o advento desta padronização. 
 	
 	Uma aplicação muito interessante foi desenvolvida na Austrália, chamada \textit{The National Demonstrator Project}. Para isso, foi criado um consórcio de empresas chamado \textbf{CSIRO}, o qual era composto por empresas de renome mundial, como a Gillette, Sun Microsystems, VerySign e a P\&G, além de outras empresas locais de médio e pequeno porte. Seus objetivos principais foram demonstrar o princípio da rede EPC através de sua implementação em toda uma cadeia produtiva, evidenciando os benefícios que esta integração gera para todos os participantes do sistema. 
 	
@@ -94,10 +94,10 @@
 	\begin{enumerate}
 		\item O processo inicia quando um cliente gera uma ordem no ERP da CHEP;  
 		\item CHEP ou cliente pegam os paletes;
-		\item As Tags das paletas passam pelos leitores RFID e sua localização é gravada no sistema;
-		\item As paletas são despachadas para os clientes;
+		\item As Tags dos paletes passam pelos leitores RFID e sua localização é gravada no sistema;
+		\item Os paletes são despachados para os clientes;
 		\item Paletas são recebidas no local desejado
-		\item Novamente, as Tags das paletas passam pelos leitores RFID e têm sua localização salva no sistema;
+		\item Novamente, as Tags dos paletes passam pelos leitores RFID e têm sua localização salva no sistema;
 		\item As Tags são contadas e comparadas com a ordem gerada, salvando os dados no sistema;
 		\item Se a quantidade fosse correta, a ordem era aceita. Caso houvesse algum erro, o fornecedor era imediatamente notificado.
 	\end{enumerate}	
@@ -135,7 +135,7 @@
 	
 	
 	\subsection{Considerações Finais}
-	Neste capítulo foi dada uma breve descrição sobre a norma EPCGlobal, mantida e criada pelo consórcio GS1, com enfoque nos aspectos que mais se relacioanavam com o conteúdo da disciplina, pois a norma é bem extensa. Aspectos além do escopo deste trabalho ou que não foram explicados de maneira completa podem ser estudados e melhor entendidos, e podem ser melhor vistos em \cite{gs1} e \cite{gs1arc}. Através do estudo de caso apresentado, podemos conlcuir que esta norma, se aplicada corretamente, funciona na prática e pode entregar bons resultados. Sua utilização pela indústria só tem a agregar valor às aplicações voltadas para o gerenciamento de cadeias de suprimento.
+	Neste seção foi dada uma breve descrição sobre a norma EPCGlobal, mantida e criada pelo consórcio GS1, com enfoque nos aspectos que mais se relacionavam com o conteúdo da disciplina, pois a norma é bem extensa. Aspectos além do escopo deste trabalho ou que não foram explicados de maneira completa podem ser estudados e melhor entendidos  em \cite{gs1} e \cite{gs1arc}. Através do estudo de caso apresentado, podemos conlcuir que esta norma, se aplicada corretamente, funciona na prática e pode entregar bons resultados. Sua utilização pela indústria só tem a agregar valor às aplicações voltadas para o gerenciamento de cadeias de suprimento.
 	
 %\newpage
 

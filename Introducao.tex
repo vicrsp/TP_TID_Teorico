@@ -69,7 +69,7 @@
 	
 
 	 Existem tags de diversos tamanhos e formatos, nos dando a flexibilidade de escolher a que melhor se encaixará na aplicação a ser desenvolvida (figura \ref{fig:rfidtags}). Elas podem ser passivas, ativas ou semi-passivas. As passivas obtém sua energia dos leitores. Já as ativas possuem uma bateria interna para fornecer a energia necessária para o processamento de suas tarefas.	
-	 As tags semi-passivas são capazes de obter eneergia dos leitores e também possuem uma bateria interna.
+	 As tags semi-passivas são capazes de obter energia dos leitores e também possuem uma bateria interna.
 	 
 		\begin{figure}[h!]
 			\centering
@@ -78,10 +78,10 @@
 			\label{fig:rfidtags}
 		\end{figure}
 	
-	Como a comunicação é feita por radiofrequência, precisamos levar em consideração o meio de transmissão da informação, que neste caso é o ar. Portanto, devemos levar em consideração os seguintes atributos, os quais definem a interface do ar:   
+	Como a comunicação é feita por radiofrequência, precisamos levar em consideração o meio de transmissão da informação, que neste caso é o ar. Portanto, são definidos os seguintes atributos:   
 	
 	\paragraph{Modo de comunicação} Dividido em \textit{full-duplex} (FDX)/\textit{half-duplex} (HDX) ou \textit{Sequencial} (SEQ). Sistemas FDX ou HDX difundem a informação vinda das tags quando acionamos o leitor. Já nos sistemas SEQ é implementado um acionamento periódico do leitor, no qual ele fica desligado enquanto a tag está respondendo.	
-	\paragraph{Frequência de Operação} A frequência de operação especifica o intervalo de frequências em que será feita a comunicação, resolvemos problemas relacionados a interferência entre os aparelhos. A tabela \ref{tab:freqapp} mostra a relação entre os possíveis intervalos operação e as respectivas aplicações.
+	\paragraph{Frequência de Operação} A frequência de operação especifica o intervalo de frequências em que será feita a comunicação, resolvendo problemas relacionados a interferência entre os aparelhos. A tabela \ref{tab:freqapp} mostra a relação entre os possíveis intervalos operação e as respectivas aplicações.
 
 		\begin{table}
 			\centering
@@ -100,15 +100,15 @@
 			\label{tab:freqapp}
 		\end{table}	
 
-	\paragraph{Tipos de Chaves} O tipo de chave define os atributos da portadora que tranportará o sinal, selecionando o tipo de modulação que deverá ser usada.
+	\paragraph{Tipos de Chaves} O tipo de chave define os atributos da portadora que transportará o sinal, selecionando o tipo de modulação que deverá ser usada.
 	
 	\paragraph{Codificação} A codificação determina como a tag e o leitor interpretam a informação sendo transmitida pela portadora, ou seja, são responsáveis pela demodulação.
   
 	\paragraph{Acoplamento} O acoplamento determina como o circuito do leitor influencia o da Tag, e vice-versa, afetando a distância com que eles precisarão estar entre si para haver a troca de dados.\\
 	 
-	Devemos também levar em consideração a forma com que as tags armazenam e processam as informações. A capacidade de aramzenamento vai de 1 bit até kilobytes de dados. Os tipos mais comuns são:
+	Devemos também levar em consideração a forma com que as tags armazenam e processam as informações. A capacidade de armazenamento vai de 1 bit até kilobytes de dados. Os tipos mais comuns são:
 	
-	\paragraph{EAS - Electronic Article Surveillance} São tags usando principalmente para a prevenção de roubo. Possuem somente 1-bit, podendo indicar somente a presença ou não de uma tag, por exemplo. São sempre passivas e geralmente não possuem microchips e memória para armazenamento de dados, sendo simples e baratas. 
+	\paragraph{EAS - Electronic Article Surveillance} São usadas principalmente para a prevenção de roubo. Possuem somente 1-bit, podendo indicar somente a presença ou não de uma tag, por exemplo. São sempre passivas e geralmente não possuem microchips e memória para armazenamento de dados, sendo simples e baratas. 
 	
 	\paragraph{SAW - Surface Acoustic Waves} Operam no intervalo das microondas, não possuem processadores e sua capacidade é de até 32-bits. Funcionam a partir do seguinte princípio: O leitor emite ondas de rádio, que são convertidas em uma onda acústica na superfície do chip SAW. Essa onda acústica se propaga pela tag, passando por uma série de refletores, produzindo pulsos acústicos de onda unicamente condificados. Esse pulsos são convertidos novamente  para ondas de rádio e tramitidos através de reflexão para o leitor.
 	
@@ -122,11 +122,11 @@
 	Algumas tags apresentam um comportamento mais complexo, possuindo máquinas de estado incorporadas em chips customizados, permitindo que elas exerçam um papel mais ativo no sistema. Por causa disso, são geralmente mais caras. 
 	
 	\subsubsection{Leitores}
-	Os leitores RFID são os componentes responsáveis pela leitura das tags, geração de evnetos e finalmente envio dos dados à camada de \textit{Middleware}. Os elementos físicos básicos de um leitor são: antena, controlador e interface de rede.
+	Os leitores RFID são os componentes responsáveis pela leitura das tags, geração de eventos e envio dos dados à camada de \textit{Middleware}. Os elementos físicos básicos de um leitor são: antena, controlador e interface de rede.
 	
-	A \textbf{antena} é o elemento principal da comunicação, cujo papel é enviar e receber as informações na forma de ondas de radio-frequência. Dependendo da aplicação, um leitor pode ter mais de uma antena. O \textbf{controlador} tem como função executar os protocolos de comunicação e controlar o transmissor. Pode ser implementado em um chip ou até em sistemas maiores e mais robustos, como microcomputadores. A \textbf{interface de rede} é essencial para a comunicação com a camada de middleware e também com outros dispositivos. As formas mais comuns de se fazer isto pe usando as interfaces RS 232, Ethernet, Bluetooth e ZigBee.
+	A \textbf{antena} é o elemento principal da comunicação, cujo papel é enviar e receber as informações na forma de ondas de radio-frequência. Dependendo da aplicação, um leitor pode ter mais de uma antena. O \textbf{controlador} tem como função executar os protocolos de comunicação e controlar o transmissor. Pode ser implementado em um chip ou até em sistemas maiores e mais robustos, como microcomputadores. A \textbf{interface de rede} é essencial para a comunicação com a camada de middleware e também com outros dispositivos. As formas mais comuns de se fazer isto é usando as interfaces RS 232, Ethernet, Bluetooth e ZigBee.
 	
-	Um leitor RFID também pode ser divido em 4 partes lógicas e abstratas, como pode ser vista na figura \ref{fig:reader}. 
+	Um leitor RFID também pode ser divido em 4 partes lógicas e abstratas, como pode ser visto na figura \ref{fig:reader}. 
 		
 		\begin{figure}[h!]
 			\centering
@@ -139,7 +139,7 @@
 	
 	\paragraph{Comunicação} Gerencia os detalhes técnicos relativos aos protocolos usados na troca de dados com o Middleware.
 	
-	\paragraph{Gerenciamento de Eventos} Define quais eventos de leitura são relevantes para serem disponibiliados ao Middleware. Tem papel importante na redução de tráfego na rede, pois impedem que eventos irrelevantes sejam transmitidos com frequência.
+	\paragraph{Gerenciamento de Eventos} Define quais eventos de leitura são relevantes para serem disponibilizados ao Middleware. Tem papel importante na redução de tráfego na rede, pois impede que eventos irrelevantes sejam transmitidos com frequência.
 	
 	\paragraph{Antena} Consiste na interface e lógica que permite aos leitores interrogar as tags sobre seu estado atual e controlar as antenas físicas. Implementa os protocolos de trocas de dados usando rádio-frequência bem como a eletrônica da interface com o ar.
 
@@ -156,11 +156,11 @@
 			\label{fig:middleware}
 		\end{figure}
 	
-	\paragraph{API} Sua função principal é fornecer um mecanismo padrão com o qual as aplicações podem se registrar e receber dados vindos dos leitores RFID. Ela também deve fornecer uma API para a configuração, monitoramento e gerenciamento do middleware e os letiroes e sensores controlados por ele.
-	\paragraph{Gerenciador de eventos} Em aplicações de grande porte, o volume de informação coletados dos leitores RFID é muito grande, tornando imprático que se salve todos os dados. Portanto, o papel do gerenciador de eventos é agregar, consolidar e filtrar esses dadods, de forma a enviar somente as informações mais relevantes aos sistemas gerenciais.
+	\paragraph{API} Sua função principal é fornecer um mecanismo padrão com o qual as aplicações podem se registrar e receber dados vindos dos leitores RFID. Ela também deve fornecer uma API para a configuração, monitoramento e gerenciamento do middleware e os leitores e sensores controlados por ele.
+	\paragraph{Gerenciador de eventos} Em aplicações de grande porte, o volume de dados coletados dos leitores RFID é muito grande, tornando imprático que o armazenamento de todos eles. Portanto, o papel do gerenciador de eventos é agregar, consolidar e filtrar esses dados, de forma a enviar somente as informações mais relevantes aos sistemas gerenciais.
 	\paragraph{Adaptador} Atualmente existem dezenas de fabricantes de leitores RFID, os quais fornecem interfaces diferentes para uso de seus produtos. Portanto, é papel do adaptator fornecer uma interface de alto-nível que implemente os protocolos proprietários, fazendo com que os usuário não precisem se preocupar com estes detalhes. Isso reduz significativamente as dificuldades na integração dos dados RFID.
 	
-	A figura \ref{fig:midarc} apresenta um modelo conceitual para a implementação real de um middlware RFID. Nele podemos ver o papel e a importância dos componentes lógicos exibidos anteriormente, e como o middleware pode fornecer interfaces que permitem a integração com sistemas JAVA e .NET, por exemplo.
+	A figura \ref{fig:midarc} apresenta um modelo conceitual para a implementação real de um middleware RFID. Nele podemos ver o papel e a importância dos componentes lógicos exibidos anteriormente, e como o middleware pode fornecer interfaces que permitem a integração com sistemas JAVA e .NET, por exemplo.
 	
 		\begin{figure}[h!]
 			\centering
@@ -173,13 +173,13 @@
 	Devido às características discutidas anteriormente, podemos concluir que existirá uma variedade enorme de aplicações da tecnologia RFID. De acordo com \cite{rfidbook}, a maioria delas podem ser classificadas nos seguintes grupos:
 	\begin{itemize}
 		\item Controle de acesso
-		\item Tag and Ship funcionamento do sistema.
+		\item Tag and Ship
 		\item Localizar paletes e caixas
 		\item Localizar e monitorar
 		\item Prateleira inteligente
 	\end{itemize}
 	
-	Nas próximas seções deste trabalho serão expostos alguns estudos de caso exemplificando algumas aplicações prática. A partir destes exemplos será possível entender melhor como funcionam na prática os diversos componentes de um sistema RFID. A ultima seção descreverá o EPCGlobal, que é um padrão importante adotado empresas de peso, cuja utilização está em crescente uso devido aos benefícios propiciados pela sua adoção em aplicações de \textit{Supply Chain Management}.
+	Nas próximas seções deste trabalho serão expostos alguns estudos de caso exemplificando algumas aplicações prática. A partir destes exemplos será possível entender melhor como funcionam na prática os diversos componentes de um sistema RFID. A ultima seção descreverá o EPCGlobal, que é um padrão importante adotado por empresas de peso, cuja utilização está em crescente expansão devido aos benefícios propiciados pela sua adoção em aplicações de \textit{Supply Chain Management}.
 %	\newpage
 %	 \bibliographystyle{plain}
 %	 \nocite{*}

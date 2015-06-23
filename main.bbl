@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{renatarfid}
 \url{http://brasil.rfidjournal.com/artigos/vision?9940}.
@@ -15,6 +15,9 @@
 \bibitem{gs1arc}
 \url{http://www.gs1.org/sites/default/files/docs/architecture/GS1_System_Architecture.pdf}.
 
+\bibitem{rfidufjf}
+\url{http://www.gta.ufrj.br/grad/07_1/rfid/RFID_arquivos/Index.htm}.
+
 \bibitem{gs1}
 \url{www.gs1.org}.
 
@@ -27,6 +30,10 @@ Klaus Finkenzeller.
 \bibitem{rfidbook}
 Bill Glover and Himanshu Bhatt.
 \newblock {\em RFID Essentials}.
+
+\bibitem{arnambReview}
+Arun~N. Nambiar.
+\newblock Rfid technology: A review of its applications.
 
 \bibitem{epcSobCug}
 O.~G. Sobrinho and C.~E. Cugnasca.
