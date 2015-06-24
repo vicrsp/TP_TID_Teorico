@@ -7,10 +7,15 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces Componentes l\IeC {\'o}gicos de um leitor RFID. Adaptado de \cite {rfidbook}\relax }}{10}{figure.caption.18}
 \contentsline {figure}{\numberline {7}{\ignorespaces Componentes l\IeC {\'o}gicos do middleware. Adaptado de \cite {rfidbook}\relax }}{11}{figure.caption.23}
 \contentsline {figure}{\numberline {8}{\ignorespaces Arquitetura conceitual de um Middleware RFID. Retirado de \cite {rfidbook}\relax }}{12}{figure.caption.27}
-\contentsline {figure}{\numberline {9}{\ignorespaces Grupos do padr\IeC {\~a}o GS1\relax }}{13}{figure.caption.28}
-\contentsline {figure}{\numberline {10}{\ignorespaces Funcionamento do EPC\relax }}{14}{figure.caption.32}
-\contentsline {figure}{\numberline {11}{\ignorespaces Funcionamento do EPCIS\relax }}{14}{figure.caption.33}
-\contentsline {figure}{\numberline {12}{\ignorespaces Arquitetura do EPCGlobal. Retirada de \cite {epcSobCug} \relax }}{15}{figure.caption.34}
-\contentsline {figure}{\numberline {13}{\ignorespaces Paletes\relax }}{16}{figure.caption.35}
-\contentsline {figure}{\numberline {14}{\ignorespaces Galp\IeC {\~o}es utlizados\relax }}{16}{figure.caption.36}
-\contentsline {figure}{\numberline {15}{\ignorespaces Aquitetura do projeto\relax }}{17}{figure.caption.37}
+\contentsline {figure}{\numberline {9}{\ignorespaces Transporte de Alimentos monitorado por RFID\relax }}{13}{figure.caption.28}
+\contentsline {figure}{\numberline {10}{\ignorespaces Etapas para o projeto de Integra\IeC {\c c}\IeC {\~a}o de Sistemas RFID.\relax }}{14}{figure.caption.29}
+\contentsline {figure}{\numberline {11}{\ignorespaces Componentes para Integra\IeC {\c c}\IeC {\~a}o de RFID.\relax }}{15}{figure.caption.30}
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de Circuito integrado a RFID.\relax }}{16}{figure.caption.31}
+\contentsline {figure}{\numberline {13}{\ignorespaces Leitor desenvolvido\relax }}{18}{figure.caption.32}
+\contentsline {figure}{\numberline {14}{\ignorespaces Grupos do padr\IeC {\~a}o GS1\relax }}{19}{figure.caption.33}
+\contentsline {figure}{\numberline {15}{\ignorespaces Funcionamento do EPC\relax }}{20}{figure.caption.37}
+\contentsline {figure}{\numberline {16}{\ignorespaces Funcionamento do EPCIS\relax }}{20}{figure.caption.38}
+\contentsline {figure}{\numberline {17}{\ignorespaces Arquitetura do EPCGlobal. Retirada de \cite {epcSobCug} \relax }}{21}{figure.caption.39}
+\contentsline {figure}{\numberline {18}{\ignorespaces Paletes\relax }}{22}{figure.caption.40}
+\contentsline {figure}{\numberline {19}{\ignorespaces Galp\IeC {\~o}es utlizados\relax }}{22}{figure.caption.41}
+\contentsline {figure}{\numberline {20}{\ignorespaces Aquitetura do projeto\relax }}{23}{figure.caption.42}

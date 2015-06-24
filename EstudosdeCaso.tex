@@ -1,0 +1,34 @@
+
+
+%caso 1
+\subsection{Autenticação de bebidas}
+Este caso consiste da implementação de um sistema RFID pela fabricante de bebidas de Taiwan \textit{Taiwan Tobacco and Liquor Corp.} (TTL). O objetivo da adoção foi assegurar a autenticidade de seus produtos e rastrear as mercadorias pela cadeia de suprimentos. 
+A empresa produz principalmente vinhos finos e bebidas de alto valor, portanto é de seu interesse garantir a autenticidade de seus produtos, principalmente no mercado da China.
+
+Para desenvolver este sistema, a TTL decidiu trabalhar com a EPC Solutions Taiwan. A solução deveria ser capaz de todos os produtos em sua cadeia de suprimentos, passando pelo engarrafamento, embalagem e recebimento de mercadorias no centro de distruibuição (CD) na China.  Além disso, os clientes deveriam ser capazes de confirmar a autenticidade do produto através de um leitor portátil, o qual interrogaria o rótulo de cada garrafa.
+
+Como a TTL deveria fornecer um leitor para cada revendedor, a escolha deste era um fator crucial projeto, pois era preciso um leitor que funcionasse bem e barato. Para isso, A EPC Solutions desenvolveu um leitor de baixo custo operando em 433 MHz capaz de ler as tags RFID passivas EPC Gen2 UHF escolhidas para a aplicação. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.2\linewidth]{leitor_ttl}
+\caption{Leitor desenvolvido}
+\label{fig:leitor_ttl}
+\end{figure}
+   
+Nos armazéns, fábricas e centros de distribuição, foram instalados três leitores UHF 902-928 MHz para interrogar as tags. Escolheu-se um frequência de operação maior de forma a permitir a leitura a maiores distâncias.
+
+Na estação de engarrafamentoe, as tags são afixadas no topo da garrafa através de um adesivo não removível, interrogadas automaticamente e seus dados são enviados a servidor back-end da TTL, onde o software relaciona o tipo de produto e lote com o número de identificação único da tag.
+
+Ao chegar na estação de embalagem, os funcionários empacotam 6 garrafas em uma caixa e adicionam outra tag à esta caixa. Todas a 7 tags são lidas pelo próximo interrogador, o qual vincula as tags dos frascos à da embalagem.
+
+Por fim, as caixas são carregadas em paletes e um leitor fixos lê as tags das garrafas e da caixa, relacionando essa informação com a etiqueta afixada no palete. Os paletes são então transferidos para o armazém, onde leitores fixos registram a chegada dos bens e funcionários com leitores de mão fazem verificações periódicas de inventário.
+
+No momento da expedição, os bens passam por um portal leitor fixo que atualiza o software e indica que o palete foi enviado ao CD. No CD, leitores fixos foram instalados para indicar o recebimento do palete e equipamentos de mão são usados para controle de estoque. Os dados são então enviados ao servidor da TTL para atualização.
+
+Nas lojas, os consumidores podem conectar o leitor \ref{fig:leitor_ttl} ao seu tablet ou smartphone e baixar o aplicativo da TTL para conseguir confirmar a autenticidade do produt através da leitura da tag do produto. Em cada leitura, um consulta é feita ao servidor da TTL, de forma a garantir esta procedência.
+
+\subsection{title}
+
+
+\subsection{title}
