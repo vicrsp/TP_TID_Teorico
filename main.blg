@@ -15,6 +15,10 @@ Warning--entry type for "renatarfid" isn't style-file defined
 --line 68 of file biblio_doc.bib
 Warning--entry type for "rfidufjf" isn't style-file defined
 --line 83 of file biblio_doc.bib
+Warning--entry type for "rfidjournal1" isn't style-file defined
+--line 99 of file biblio_doc.bib
+Warning--entry type for "rfidcase2" isn't style-file defined
+--line 106 of file biblio_doc.bib
 Warning--to sort, need author or key in renatarfid
 Warning--to sort, need author or key in case_epc_demo_ext
 Warning--to sort, need author or key in gs1
@@ -22,14 +26,19 @@ Warning--to sort, need author or key in gs1arc
 Warning--to sort, need author or key in case_epc_demo
 Warning--to sort, need author or key in tags
 Warning--to sort, need author or key in rfidufjf
+Warning--to sort, need author or key in rfidjournal1
+Warning--to sort, need author or key in rfidcase2
 Warning--can't use both author and editor fields in rfidbook2
 Warning--empty publisher in rfidbook2
 Warning--empty year in rfidbook2
 Warning--can't use both author and editor fields in rfidbook
 Warning--empty publisher in rfidbook
 Warning--empty year in rfidbook
+Warning--can't use both author and editor fields in livroigor
+Warning--empty publisher in livroigor
+Warning--empty year in livroigor
 Warning--empty journal in arnambReview
 Warning--empty year in arnambReview
 Warning--empty journal in epcSobCug
 Warning--empty year in epcSobCug
-(There were 24 warnings)
+(There were 31 warnings)

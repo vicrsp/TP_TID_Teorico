@@ -3,6 +3,12 @@
 \bibitem{renatarfid}
 \url{http://brasil.rfidjournal.com/artigos/vision?9940}.
 
+\bibitem{rfidjournal1}
+\url{http://brasil.rfidjournal.com/estudos-de-caso/vision?11871/}.
+
+\bibitem{rfidcase2}
+\url{http://brasil.rfidjournal.com/estudos-de-caso/vision?13164%2F}.
+
 \bibitem{tags}
 \url{http://www.coresonant.com/images/rfid-tags-for-solar-module-india.JPG}.
 
@@ -30,6 +36,12 @@ Klaus Finkenzeller.
 \bibitem{rfidbook}
 Bill Glover and Himanshu Bhatt.
 \newblock {\em RFID Essentials}.
+
+\bibitem{livroigor}
+Hamid Jabbar and Ming-Shen~Jian Taikyeong Ted.~Jeong.
+\newblock {\em RFID System Integration and Application Examples, Radio
+  Frequency Identification Fundamentals and Applications Bringing Research to
+  Practice}.
 
 \bibitem{arnambReview}
 Arun~N. Nambiar.

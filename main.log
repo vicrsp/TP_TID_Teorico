@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.10)  24 JUN 2015 10:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.10)  24 JUN 2015 11:23
 entering extended mode
 **main.tex
 
@@ -774,16 +774,16 @@ alho\TP_TID_Teorico\main.toc")
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
 alho\TP_TID_Teorico\main.lof")
 \tf@lof=\write5
- [3]
+
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
 alho\TP_TID_Teorico\main.lot")
 \tf@lot=\write6
- [4]
+ [3]
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
 alho\TP_TID_Teorico\Resumo.tex")
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 43.
-
+ [4]
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
 alho\TP_TID_Teorico\Introducao.tex"
 Overfull \hbox (2.63535pt too wide) in paragraph at lines 8--9
@@ -791,7 +791,7 @@ Overfull \hbox (2.63535pt too wide) in paragraph at lines 8--9
 do ta-ma-nho de um forno-microondas
  []
 
-<rfidsys2.jpg, id=236, 740.7675pt x 246.9225pt>
+<rfidsys2.jpg, id=233, 740.7675pt x 246.9225pt>
 File: rfidsys2.jpg Graphic file (type jpg)
  <use rfidsys2.jpg>
 Package pdftex.def Info: rfidsys2.jpg used on input line 14.
@@ -803,88 +803,91 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
- [5 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/rfidsys2.jpg>] <rfideras.jpg, id=248, 448.67625pt x 436.
-63126pt>
-File: rfideras.jpg Graphic file (type jpg)
 
-<use rfideras.jpg>
+<rfideras.jpg, id=238, 448.67625pt x 436.63126pt>
+File: rfideras.jpg Graphic file (type jpg)
+ <use rfideras.jpg>
 Package pdftex.def Info: rfideras.jpg used on input line 33.
 (pdftex.def)             Requested size: 307.2929pt x 299.05063pt.
- [6 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/rfideras.jpg>]
-<rfidsys3.jpg, id=256, 417.05812pt x 430.60875pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Tr
+abalho/TP_TID_Teorico/rfidsys2.jpg>] [6 <C:/Users/Victor Ruela/Desktop/UFMG/201
+5-1/Integracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/rfideras.jpg>]
+<rfidsys3.jpg, id=251, 417.05812pt x 430.60875pt>
 File: rfidsys3.jpg Graphic file (type jpg)
  <use rfidsys3.jpg>
 Package pdftex.def Info: rfidsys3.jpg used on input line 57.
 (pdftex.def)             Requested size: 256.07481pt x 264.40556pt.
- [7 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/rfidsys3.jpg>] <rfidtagas.jpg, id=265, 764.8575pt x 578.
-16pt>
-File: rfidtagas.jpg Graphic file (type jpg)
 
-<use rfidtagas.jpg>
+<rfidtagas.jpg, id=255, 764.8575pt x 578.16pt>
+File: rfidtagas.jpg Graphic file (type jpg)
+ <use rfidtagas.jpg>
 Package pdftex.def Info: rfidtagas.jpg used on input line 76.
 (pdftex.def)             Requested size: 256.07481pt x 193.56349pt.
- [8 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/rfidtagas.jpg>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Tr
+abalho/TP_TID_Teorico/rfidsys3.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-<sawrfid_chip.jpg, id=274, 346.29375pt x 111.41624pt>
+[8 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Tr
+abalho/TP_TID_Teorico/rfidtagas.jpg>]
+<sawrfid_chip.jpg, id=272, 346.29375pt x 111.41624pt>
 File: sawrfid_chip.jpg Graphic file (type jpg)
  <use sawrfid_chip.jpg>
 Package pdftex.def Info: sawrfid_chip.jpg used on input line 117.
 (pdftex.def)             Requested size: 256.07481pt x 82.39063pt.
 
-[9 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Tr
-abalho/TP_TID_Teorico/sawrfid_chip.jpg>]
-<reader.jpg, id=285, 184.69pt x 155.58125pt>
+<reader.jpg, id=274, 184.69pt x 155.58125pt>
 File: reader.jpg Graphic file (type jpg)
  <use reader.jpg>
 Package pdftex.def Info: reader.jpg used on input line 133.
 (pdftex.def)             Requested size: 128.0374pt x 107.85683pt.
-
-<middleware.jpg, id=290, 184.69pt x 175.65625pt>
+ [9 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
+rabalho/TP_TID_Teorico/sawrfid_chip.jpg> <C:/Users/Victor Ruela/Desktop/UFMG/20
+15-1/Integracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/reader.jpg>]
+<middleware.jpg, id=285, 184.69pt x 175.65625pt>
 File: middleware.jpg Graphic file (type jpg)
  <use middleware.jpg>
 Package pdftex.def Info: middleware.jpg used on input line 154.
 (pdftex.def)             Requested size: 128.0374pt x 121.77383pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/reader.jpg>]
-<midarc.jpg, id=303, 362.85562pt x 361.35pt>
+ [10 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/
+Trabalho/TP_TID_Teorico/middleware.jpg>] <midarc.jpg, id=300, 362.85562pt x 361
+.35pt>
 File: midarc.jpg Graphic file (type jpg)
- <use midarc.jpg>
+
+<use midarc.jpg>
 Package pdftex.def Info: midarc.jpg used on input line 167.
 (pdftex.def)             Requested size: 256.07481pt x 255.01645pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/middleware.jpg>])
+) [11 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico
+/Trabalho/TP_TID_Teorico/midarc.jpg>] [12]
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
-alho\TP_TID_Teorico\Integracao.tex" [12 <C:/Users/Victor Ruela/Desktop/UFMG/201
-5-1/Integracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/midarc.jpg>]
-<Ex1SCS.jpg, id=318, 731.73375pt x 575.90157pt>
+alho\TP_TID_Teorico\Integracao.tex"
+<Ex1SCS.jpg, id=313, 731.73375pt x 575.90157pt>
 File: Ex1SCS.jpg Graphic file (type jpg)
  <use Ex1SCS.jpg>
 Package pdftex.def Info: Ex1SCS.jpg used on input line 13.
 (pdftex.def)             Requested size: 358.50317pt x 282.15909pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Overfull \hbox (17.1908pt too wide) in paragraph at lines 22--23
 []\OT1/phv/m/n/12 Como RFID ge-ral-mente []e uti-li-zado para identifica[][]ao,
  ele tamb[]em pode ser uti-li-zado em aplica[][]oes
  []
 
-[13 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/Ex1SCS.jpg>]
-<etapas_integracao.jpg, id=324, 642.90187pt x 176.91093pt>
+[13] [14 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teor
+ico/Trabalho/TP_TID_Teorico/Ex1SCS.jpg>]
+<etapas_integracao.jpg, id=323, 642.90187pt x 176.91093pt>
 File: etapas_integracao.jpg Graphic file (type jpg)
 
 <use etapas_integracao.jpg>
@@ -896,17 +899,19 @@ Overfull \hbox (30.95303pt too wide) in paragraph at lines 61--63
 e obst[]aculos t[]ecnicos que exige personaliza[][]ao
  []
 
-[14 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/etapas_integracao.jpg>]
 
 LaTeX Warning: File `componente integracao.jpg' not found on input line 71.
 
-<componente integracao.jpg, id=329, 368.1253pt x 315.42844pt>
+<componente integracao.jpg, id=324, 368.1253pt x 315.42844pt>
 File: componente integracao.jpg Graphic file (type jpg)
 
 <use componente integracao.jpg>
 Package pdftex.def Info: componente integracao.jpg used on input line 71.
 (pdftex.def)             Requested size: 256.07481pt x 219.43149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Overfull \hbox (17.3689pt too wide) in paragraph at lines 80--81
 []\OT1/phv/m/n/12 A de-cis[]ao da posi[][]ao da tag []e cr[]tico para tags pas
@@ -914,74 +919,78 @@ Overfull \hbox (17.3689pt too wide) in paragraph at lines 80--81
  []
 
 [15 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/componente integracao.jpg>]
-<mosfet_rfid.jpg, id=334, 722.7pt x 285.31593pt>
+rabalho/TP_TID_Teorico/etapas_integracao.jpg>]
+<mosfet_rfid.jpg, id=329, 722.7pt x 285.31593pt>
 File: mosfet_rfid.jpg Graphic file (type jpg)
  <use mosfet_rfid.jpg>
 Package pdftex.def Info: mosfet_rfid.jpg used on input line 103.
 (pdftex.def)             Requested size: 358.50317pt x 141.5344pt.
- [16 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/
-Trabalho/TP_TID_Teorico/mosfet_rfid.jpg>])
-("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
-alho\TP_TID_Teorico\EstudosdeCaso.tex"
-<leitor_ttl.jpg, id=339, 301.125pt x 534.99875pt>
-File: leitor_ttl.jpg Graphic file (type jpg)
- <use leitor_ttl.jpg>
-Package pdftex.def Info: leitor_ttl.jpg used on input line 14.
-(pdftex.def)             Requested size: 102.42836pt x 181.97879pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17])
+[16 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
+rabalho/TP_TID_Teorico/componente integracao.jpg>]) [17 <C:/Users/Victor Ruela/
+Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/mosf
+et_rfid.jpg>]
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
-alho\TP_TID_Teorico\EPCGlobal.tex" [18 <C:/Users/Victor Ruela/Desktop/UFMG/2015
--1/Integracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/leitor_ttl.jpg>]
+alho\TP_TID_Teorico\EstudosdeCaso.tex"
+<leitor_ttl.jpg, id=338, 301.125pt x 534.99875pt>
+File: leitor_ttl.jpg Graphic file (type jpg)
+ <use leitor_ttl.jpg>
+Package pdftex.def Info: leitor_ttl.jpg used on input line 14.
+(pdftex.def)             Requested size: 102.42836pt x 181.97879pt.
+ [18 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/
+Trabalho/TP_TID_Teorico/leitor_ttl.jpg>]) [19]
+("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
+alho\TP_TID_Teorico\EPCGlobal.tex"
 <gs1arch.jpg, id=349, 511.9125pt x 418.56375pt>
 File: gs1arch.jpg Graphic file (type jpg)
  <use gs1arch.jpg>
 Package pdftex.def Info: gs1arch.jpg used on input line 14.
 (pdftex.def)             Requested size: 358.50317pt x 293.12674pt.
- [19 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/
-Trabalho/TP_TID_Teorico/gs1arch.jpg>] <epcrfid.jpg, id=358, 528.47438pt x 206.2
+ [20 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/
+Trabalho/TP_TID_Teorico/gs1arch.jpg>] <epcrfid.jpg, id=355, 528.47438pt x 206.2
 7063pt>
 File: epcrfid.jpg Graphic file (type jpg)
 
 <use epcrfid.jpg>
 Package pdftex.def Info: epcrfid.jpg used on input line 32.
 (pdftex.def)             Requested size: 256.07481pt x 99.94984pt.
- <epcis.jpg, id=359, 496.85625pt x 448.67625pt>
+ <epcis.jpg, id=356, 496.85625pt x 448.67625pt>
 File: epcis.jpg Graphic file (type jpg)
 
 <use epcis.jpg>
 Package pdftex.def Info: epcis.jpg used on input line 42.
 (pdftex.def)             Requested size: 256.07481pt x 231.24542pt.
- [20 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/
+ [21 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/
 Trabalho/TP_TID_Teorico/epcrfid.jpg> <C:/Users/Victor Ruela/Desktop/UFMG/2015-1
 /Integracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/epcis.jpg>] <epcarc.jpg
-, id=366, 349.305pt x 388.45125pt>
+, id=365, 349.305pt x 388.45125pt>
 File: epcarc.jpg Graphic file (type jpg)
  <use epcarc.jpg>
 Package pdftex.def Info: epcarc.jpg used on input line 56.
 (pdftex.def)             Requested size: 256.07481pt x 284.78806pt.
- [21 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/
-Trabalho/TP_TID_Teorico/epcarc.jpg>] <pallet.png, id=374, 358.33875pt x 255.956
+ [22 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/
+Trabalho/TP_TID_Teorico/epcarc.jpg>] <pallet.png, id=373, 358.33875pt x 255.956
 25pt>
 File: pallet.png Graphic file (type png)
 
 <use pallet.png>
 Package pdftex.def Info: pallet.png used on input line 78.
 (pdftex.def)             Requested size: 102.42836pt x 73.16309pt.
- <sites.jpg, id=377, 794.97pt x 274.02374pt>
+ <sites.jpg, id=376, 794.97pt x 274.02374pt>
 File: sites.jpg Graphic file (type jpg)
  <use sites.jpg>
 Package pdftex.def Info: sites.jpg used on input line 87.
 (pdftex.def)             Requested size: 307.2929pt x 105.92386pt.
 
-[22 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/pallet.png> <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/I
-ntegracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/sites.jpg>]
-<ausarq.jpg, id=386, 835.62187pt x 400.49625pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
+rabalho/TP_TID_Teorico/pallet.png>]
+<ausarq.jpg, id=388, 835.62187pt x 400.49625pt>
 File: ausarq.jpg Graphic file (type jpg)
  <use ausarq.jpg>
 Package pdftex.def Info: ausarq.jpg used on input line 112.
@@ -992,10 +1001,11 @@ Overfull \hbox (14.50267pt too wide) in paragraph at lines 120--121
 cons[]orcio, co-le-tando informa[][]oes
  []
 
-[23 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
-rabalho/TP_TID_Teorico/ausarq.jpg>])
+[24 <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/Integracao de Dados/TP teorico/T
+rabalho/TP_TID_Teorico/sites.jpg> <C:/Users/Victor Ruela/Desktop/UFMG/2015-1/In
+tegracao de Dados/TP teorico/Trabalho/TP_TID_Teorico/ausarq.jpg>]) [25]
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
-alho\TP_TID_Teorico\Conclusao.tex") [24]
+alho\TP_TID_Teorico\Conclusao.tex") [26]
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
 alho\TP_TID_Teorico\main.bbl"
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 4.
@@ -1003,59 +1013,59 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 4.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 [][]$\OT1/pcr/m/n/12 http : / / www . coresonant . com / images / rfid-[]tags-[
 ]for-[]solar-[]module-[]india .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
- case _ studies / case _ epc _$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
- case _ studies / case _ epc _$
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
+ case _ studies / case _ epc _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[][]$\OT1/pcr/m/n/12 http : / / www . gs1au . org / assets / documents / info /
+ case _ studies / case _ epc _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 [][]$\OT1/pcr/m/n/12 http : / / www . gs1 . org / sites / default / files / doc
 s / architecture / GS1 _$
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
- [25]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+ [27]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
 
 ("C:\Users\Victor Ruela\Desktop\UFMG\2015-1\Integracao de Dados\TP teorico\Trab
 alho\TP_TID_Teorico\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CE4D5A6E731F36AF62B2DC2712EA6B64;2455.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
+(rerunfilecheck)             Checksum: 1169E48E94B41864EE725DEBA7CA8CF2;2425.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 11424 strings out of 493921
- 175615 string characters out of 3147261
- 328284 words of memory out of 3000000
- 14416 multiletter control sequences out of 15000+200000
+ 11430 strings out of 493921
+ 175680 string characters out of 3147261
+ 329284 words of memory out of 3000000
+ 14418 multiletter control sequences out of 15000+200000
  22401 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,14n,50p,1313b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,14n,50p,1309b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/he
 lvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (25 pages, 1524886 bytes).
+Output written on main.pdf (27 pages, 1530817 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
- 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 349 words of extra memory for PDF output out of 10000 (max. 10000000)
 
